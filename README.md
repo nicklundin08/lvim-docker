@@ -4,7 +4,7 @@ https://www.lunarvim.org/
 
 https://github.com/LunarVim/LunarVim
 
-### A base docker image
+# A base docker image
 Provides a docker image for the OOTB LunarVim experience with no additional plugins or config
 
 [Dockerfile](https://github.com/nicklundin08/lvim-docker/blob/main/stock.slim.Dockerfile)
@@ -22,7 +22,7 @@ lvim /path/to/foler
 This can be used as a building block for bootstrapping new docker images with custom LunarVim config  
 
 
-### Starter config
+# Starter config
 Extend the base image above by create a new image with the starter config pre-loaded
 
 [Dockerfile](https://github.com/nicklundin08/lvim-docker/blob/main/custom_example.starter.Dockerfile)
