@@ -12,11 +12,11 @@ Provides a docker image for the OOTB LunarVim experience with no additional plug
 [DockerHub](https://hub.docker.com/repository/docker/nlundin08/lvim-stock-slim/general)
 ```
 // This will place you inside a bash shell in the running container
-docker run -it nlundin08/lvim-slim-stock:release-1.2-neovim-0.8
+docker run -it nlundin08/lvim-stock-slim:release-1.2-neovim-0.8
 
 lvim
 // or 
-lvim /path/to/foler
+lvim /path/to/folder
 ```
 
 This can be used as a building block for bootstrapping new docker images with custom LunarVim config  
